@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  max-width: 1170px;
+  margin: 50px auto;
+}
+
+.filters {
+  margin: 30px 0;
+  display: flex;
+}
+
+a {
+  border: 1px solid grey;
+  padding: 10px 15px;
+  margin-right: 10px;
+  color:#5a6570;
+  text-decoration: none;
+}
+
+.selected {
+  background-color: #5a6570;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cards {
+  column-count: 3;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.project img {
+  width: 100%;
+}
+
